@@ -1,0 +1,2 @@
+# ratstyle
+Bootstrapを用いたシングルページレイアウトの店舗サイト
