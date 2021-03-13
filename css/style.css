@@ -1,23 +1,36 @@
 @charset "UTF-8";
 
 #main-bg {
-	background-image: url(image/bag_1.jpg);
+	background-image: url(../image/bag_1.jpg);
 }
 
 #sub-bg {
-	background-image: url(image/sozai.jpg);
+	background-image: url(../image/sozai.jpg);
 }
 
 #sns-bg {
-	background-image: url(image/handmade.jpg);
+	background-image: url(../image/handmade.jpg);
 }
 
 #access-bg {
-	background-image: url(image/bag_2.jpg);
+	background-image: url(../image/bag_2.jpg);
 }
 
 #contact-bg {
-	background-image: url(image/bg.jpg);
+	background-image: url(../image/bg.jpg);
+}
+
+#title {
+	font-size: 1.8rem;
+	margin-right: 1.5rem;
+}
+
+.navbar {
+	padding: 0 2rem;
+}
+
+nav a {
+	font-family: 'Caveat', cursive;
 }
 
 .filter {
@@ -75,6 +88,7 @@ p {
 #sns-content h1 {
 	margin-bottom: 3rem;
 	background-color: rgba(240,248,255,0.5);
+	font-family: 'Courgette', cursive;
 }
 
 #contact table {
@@ -129,7 +143,7 @@ width: 100%;
 
 footer {
 	text-align: center;
-	padding: 1.5rem;
+	padding: 1rem;
 	background-color: #ccc;
 }
 
@@ -152,26 +166,26 @@ footer {
 		top: 30%;
 		left: 60%;
 	}
-	
+
 	#sub-content article {
 		position: relative;
 		width: 30%;
 		top: 35%;
 		left: 10%;
 	}
-	
+
 	#contact table {
 		width: 60%;
 		margin-left: 20%;
 	}
-	
+
 	#submit-btn {
 	width: 55%;
 	}
-	
+
 	#sns {
 		display: flex;
 		justify-content: space-around;
 	}
-	
+
 }
