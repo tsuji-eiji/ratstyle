@@ -86,7 +86,7 @@ p {
 #access h1,
 #contact h1,
 #sns-content h1 {
-	margin-bottom: 3rem;
+	margin: 2.5rem 0 1.5rem;
 	background-color: rgba(240,248,255,0.5);
 	font-family: 'Courgette', cursive;
 }
@@ -139,7 +139,6 @@ top: 0;
 height: 100%;
 width: 100%;
 }
-
 
 footer {
 	text-align: center;
