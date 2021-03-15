@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+#main-bg {
+	background-image: url(../image/bag_1.jpg);
+}
+
+#sub-bg {
+	background-image: url(../image/sozai.jpg);
+}
+
+#sns-bg {
+	background-image: url(../image/handmade.jpg);
+}
+
+#access-bg {
+	background-image: url(../image/bag_2.jpg);
+}
+
+#contact-bg {
+	background-image: url(../image/bg.jpg);
+}
+
+#title {
+	font-size: 1.8rem;
+	margin-right: 1.5rem;
+}
+
+.navbar {
+	padding: 0 2rem;
+}
+
+nav a {
+	font-family: 'Caveat', cursive;
+}
+
+.filter {
+	background-color: rgba(255, 255, 240, 0.2);
+}
+
+.text-bg {
+	background-color: rgba(89, 89, 89, 0.7);
+}
+
+.fullscr {
+	height: 100vh;
+	width: auto;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.pc-only {
+	display: none;
+}
+
+article h1 {
+	text-align: center;
+	font-size: 1.4rem;
+	padding-bottom: .5rem;
+	border-bottom: solid 2px #5A5A5A;
+}
+
+p {
+	font-size: 1rem;
+	letter-spacing: 1.4px;
+}
+
+#main-content article,
+#sub-content article{
+	position: relative;
+	top: 35%;
+	left: 10%;
+	width: 80%;
+	padding: 1rem 1.5rem;
+	background-color: rgba(240,248,255,0.5);
+}
+
+#access,
+#contact,
+#sns-content {
+	padding-top: 2rem;
+	text-align: center;
+	height: 100%;
+}
+
+#access h1,
+#contact h1,
+#sns-content h1 {
+	margin: 2.5rem 0 1.5rem;
+	background-color: rgba(240,248,255,0.5);
+	font-family: 'Courgette', cursive;
+}
+
+#contact table {
+	width: 100%;
+}
+
+#submit-btn {
+	margin-top: 2rem;
+	width: 90%;
+	height: 3rem;
+}
+
+.tbl-title {
+	width: 25%;
+}
+
+.tbl-title label {
+	margin-top: 9px;
+	width: 8rem;
+	background-color: rgba(240,248,255,0.5);
+}
+
+.tbl-input {
+	width: 65%;
+}
+
+.tbl-input input,
+.tbl-input textarea {
+	width: 90%;
+}
+
+.tbl-input textarea {
+	resize: none;
+	height: 15rem;
+}
+
+.map {
+height: 0;
+overflow: hidden;
+padding-bottom: 56.25%;
+position: relative;
+}
+
+.map iframe {
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+}
+
+footer {
+	text-align: center;
+	padding: 1rem;
+	background-color: #ccc;
+}
+
+/* レスポンシブ対応 */
+/* 最小幅600px以上のデザイン */
+/* メディアクエリ */
+/* ブレイクポイント */
+@media (min-width: 600px) {
+	.pc-only {
+		display: block;
+	}
+
+	.mobile-only {
+		display: none;
+	}
+
+	#main-content article {
+		position: relative;
+		width: 30%;
+		top: 30%;
+		left: 60%;
+	}
+
+	#sub-content article {
+		position: relative;
+		width: 30%;
+		top: 35%;
+		left: 10%;
+	}
+
+	#contact table {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	#submit-btn {
+	width: 55%;
+	}
+
+	#sns {
+		display: flex;
+		justify-content: space-around;
+	}
+
+}
