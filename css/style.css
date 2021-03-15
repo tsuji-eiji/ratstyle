@@ -8,7 +8,7 @@
 	background-image: url(../image/sozai.jpg);
 }
 
-#sns-bg {
+#third-bg {
 	background-image: url(../image/handmade.jpg);
 }
 
@@ -66,7 +66,8 @@ p {
 }
 
 #main-content article,
-#sub-content article{
+#sub-content article,
+#third-content article{
 	position: relative;
 	top: 35%;
 	left: 10%;
@@ -76,16 +77,14 @@ p {
 }
 
 #access,
-#contact,
-#sns-content {
+#contact {
 	padding-top: 2rem;
 	text-align: center;
 	height: 100%;
 }
 
 #access h1,
-#contact h1,
-#sns-content h1 {
+#contact h1 {
 	margin: 2.5rem 0 1.5rem;
 	background-color: rgba(240,248,255,0.5);
 	font-family: 'Courgette', cursive;
@@ -171,6 +170,13 @@ footer {
 		width: 30%;
 		top: 35%;
 		left: 10%;
+	}
+	
+	#third-content article {
+		position: relative;
+		width: 30%;
+		top: 25%;
+		left: 25%;
 	}
 
 	#contact table {
